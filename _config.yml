@@ -1,0 +1,9 @@
+# Site settings
+title: xatzipe
+fullname: Theodore Chatziperis
+slogan_short: Software developer.
+email: xatzipe [at] gmail [dot] com
+github_username: xatzipe
+# Build settings
+markdown: kramdown
+include: [".well-known"]

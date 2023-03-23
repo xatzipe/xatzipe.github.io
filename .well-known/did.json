@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:xatzipe.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:xatzipe.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:xatzipe.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "p256",
+        "x": "AiBOnK0xcJonJajtw1akYrJFwizfzJPxDBfTyaOrV5k=",
+        "y": "LQ5vql1kuSUAwvXF1MqeYezdBuHomNrum9GNuqPU4E8="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:xatzipe.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:xatzipe.github.io#owner"
+  ]
+}
